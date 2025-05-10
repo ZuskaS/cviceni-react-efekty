@@ -9,7 +9,9 @@ Poznámka: nemáte jak ověřit změnu oproti předchozímu příkladu. Důleži
 import { useEffect } from 'react';
 
 export const Ukol2 = () => {
-  useEffect(() => {}, []);
+  useEffect(() => {
+    console.log('Jsem tady');
+  }, []);
 
   return (
     <>
