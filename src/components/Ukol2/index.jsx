@@ -6,7 +6,11 @@ Poznámka: nemáte jak ověřit změnu oproti předchozímu příkladu. Důleži
   jak se píše useEffect, který se zavolá při prvním vykreslení komponenty.
 */
 
+import { useEffect } from 'react';
+
 export const Ukol2 = () => {
+  useEffect(() => {}, []);
+
   return (
     <>
       <p>Jsem tady</p>
